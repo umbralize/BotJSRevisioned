@@ -3,4 +3,4 @@
 
 
 
-(function(){$.getScript(https://code.radiant.dj/forceskip.js);})();
+(function(){$.getScript('https://code.radiant.dj/forceskip.js');})();
