@@ -13,8 +13,6 @@
     
     API.on(API.ADVANCE, callback);
 
-function callback () {
-
 	var a = API.getMedia().cid;
 	setTimeout(function() {
 	    var b = API.getMedia().cid;
@@ -26,8 +24,8 @@ function callback () {
 
            }
 
-    API.chatLog("Now running Force Skip. Refresh page to disable");*/
-     
+    API.chatLog("Now running Force Skip. Refresh page to disable");
+    };*/     
     
 
     API.getWaitListPosition = function(id) {
