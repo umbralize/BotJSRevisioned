@@ -9,23 +9,7 @@
     /*window.onerror = function() {
         var room = JSON.parse(localStorage.getItem('basicBotRoom'));
         window.location = 'https://plug.dj' + room.name;
-    };*/
-    
-    API.on(API.ADVANCE, callback);
-
-	var a = API.getMedia().cid;
-	setTimeout(function() {
-	    var b = API.getMedia().cid;
-	    if (a === b) {
-	        API.sendChat("Track stuck, force skipping!");
-	        API.moderateForceSkip();
-	    }
-	}, (API.getMedia().duration * 1000) + 5000);
-
-           }
-
-    API.chatLog("Now running Force Skip. Refresh page to disable");
-    };*/     
+      };*/     
     
 
     API.getWaitListPosition = function(id) {
